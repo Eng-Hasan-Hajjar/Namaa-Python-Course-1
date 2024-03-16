@@ -10,4 +10,5 @@
 ## Eng Hasan Hajjar
 ## نماء أكاديمي
 
-<p align="center"><img src="2.png" width="100%"></p>
+
+<p align="center"><img src="3.png" width="50%"></p>
