@@ -112,8 +112,8 @@ def myfunc5():
     global x5
     x5="great5"
 
+print("python is 5" + x5)   
+
 myfunc5()
 
-print("python is 5" + x5)   
- 
 
