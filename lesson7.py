@@ -27,7 +27,7 @@ txt5="Hello world!"
 print(txt5.replace("w","T"))
 
 ## ex 3
-## ex 2
+
 txt6="Hello world!"
 print(txt6.replace("l","T"))
 
