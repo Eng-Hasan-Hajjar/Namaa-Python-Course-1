@@ -80,14 +80,14 @@ myOrder= "I want {} kg of item {} for {} SYP"
 print(myOrder.format(quantity,itemNo,price))
 
 ## ex3
-quantity=2
+quantity=6
 itemNo=567
 price=49.95
 myOrder= "I want {0} kg of item {1} for {2} SYP"
 print(myOrder.format(quantity,itemNo,price))
 
 ## ex4
-quantity=2
+quantity=6
 itemNo=567
 price=49.95
 myOrder= "I want {2} kg of item {0} for {1} SYP"
