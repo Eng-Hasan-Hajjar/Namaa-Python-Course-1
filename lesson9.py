@@ -6,6 +6,7 @@
 ## manaf
 ##
 ## 
+
 ## ex1 
 
 txt="I love apples , apples are my favrite fruit - apple"
