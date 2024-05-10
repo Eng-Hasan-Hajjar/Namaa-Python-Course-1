@@ -2,15 +2,14 @@
 
 
 
-## oubia  *2
-## manaf *4
-## ismail *4 
-## giath *4
-## maan *4
-## sedra * 3
-## abd fattah * 3
+## oubia  *4
+## manaf *6
+## ismail *6 
+## giath *6
+## maan *6
+## sedra * 5
+## abd fattah * 5
 ## ahmad 
-
 
 
 
