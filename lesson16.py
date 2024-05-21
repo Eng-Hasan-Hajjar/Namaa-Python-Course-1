@@ -1,12 +1,14 @@
 
-## abdfattah *2
-## maan *2 
-## jaber *2 
-## lama
-## manaf * 2
-## ismail
-## giath
-
+## abdfattah *4
+## maan *4 
+## jaber * 6
+## lama *2
+## manaf * 3
+## ismail * 3
+## giath * 2
+## sedra *2
+## 
+## 
 
 ## list 
 ## review 15
@@ -195,3 +197,118 @@ print(cars)
 cars[1]=["ford1","ford2","ford3"]       
 print(cars) 
 
+## jaber
+x=[1,2,3]
+y=[1,2,3]
+x=y
+print (x is y) #False
+print (x is x) #True
+print (x is not y) #True
+
+
+my_list=[1,2,3,4,5]
+print (3 in my_list)#T
+print (6 in my_list)#F
+
+print (3 not in my_list)#F
+print (6  not in my_list)#T
+
+
+#in #not in
+#ex1
+mylist=[1,2,3,4,5]
+print("ex1",3 in mylist)
+print("ex1",6  in mylist)
+print("ex1",3 not in mylist)
+print("ex1",6 not in mylist)
+
+#ex2
+x=y=z=5
+x=2
+y=3
+print("ex2",x is y)
+print("ex2",x is not y)
+print("ex2",x is z)
+
+print("ex2",x is not z)
+## ismail
+f = ["ford", "bmw", "dodge"]
+s = ["ford", "bmw", "dodge"]
+z = f
+
+print(f is z)
+#
+print(f is s)
+##############
+f = ["ford", "bmw", "dodge"]
+s = ["ford", "bmw", "dodge"]
+z = f
+print(f is  s)
+
+print(f is not s)
+#####################
+f = ["ford", "bmw", "dodge"]
+print("ford" in f)
+
+print("bmw" not in f)
+
+
+
+
+#is , is not:
+#هما معاملان لمقارنة قيم المتحولات في الذاكرة
+#ex1: is
+x=2
+y=2
+z=3
+print("ex1",x is y)
+print("ex1",x is z)
+#ex2: isnot
+x=2
+y=2
+z=3
+print("ex2",x is not z)
+print("ex2",x is not y)
+# in , not in:
+#هما معاملان للتحق من وجود قيمة داخل تسلسل مثل
+#list , tuple , set , str
+#ex3: in
+ls=[1,2,3]
+print("ex3",3 in ls)
+print("ex3",5 in ls)
+#ex4: not in
+ls=[1,2,3]
+print("ex4",5 not in ls)
+print("ex4",3 not in ls)
+
+
+## 
+#is
+x=[1,2,3]
+y=[1,2,3]
+print("0" , x is y)
+
+
+x1=[1,2,3]
+y1=[1,2,3]
+x1=y1
+print("1" , x1 is y1)
+
+
+
+#is not
+x2=[1,2,3]
+y2=[1,2,3]
+print("2", x2 is not y2)
+
+
+x3=[1,2,3]
+y3=[1,2,3]
+x3!=y3
+print("3" , x3 is not y3)
+
+
+#in / not in
+text="Dealing something that must be done"
+print("in" , "must be done" in text)
+print("not in" , "must be done" not in text)
