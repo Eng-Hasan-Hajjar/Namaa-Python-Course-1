@@ -14,7 +14,6 @@ lama 3
 ahmad  1
 
 """
-
 # ex1
 ## قم بتغيير القيمة الثانية والثالثة باستبدالها بقيمة واحدة
 laptops=["hp","asus","accer","del","sony","lenovo"]
