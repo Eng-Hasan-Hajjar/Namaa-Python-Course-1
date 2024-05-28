@@ -31,9 +31,9 @@ print(newlist2)
 ## ex3
 ## قيمة ثابتة لجميع العناصر 
 ##بشرط
-office = ["word","ismail", "excel", "power point","access"]
-newlist2 = ['microsoft' for x in office if x != "ismail"  ]
-print(newlist2)
+office2 = ["word","ismail", "excel", "power point","access"]
+newlist2 = ['microsoft' for x in office2 if x != "ismail"  ]
+print("ex3",newlist2)
 
 ## ex4
 ## أرجع قيمة فيزو بدل اسماعيل
@@ -41,7 +41,7 @@ print(newlist2)
 
 office = ["word","ismail", "excel", "power point","access"]
 newlist2 = [x if x != "ismail" else "visio" for x in office   ]
-print(newlist2)
+print("ex4",newlist2)
 
 ## gaith
 office = ["word", "ismail", "excel", "power point", "access"]
