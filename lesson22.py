@@ -1,10 +1,10 @@
 """
-maan 47
-Abd fattah  42
-ismail 33
-manaf 35
-gith 26
-sedra 23
+maan 48
+Abd fattah  44
+ismail 34
+manaf 37
+gith 27
+sedra 25
 jaber 21
 obia 16
 Bhaa 9
@@ -182,20 +182,77 @@ print("ex18 A ", A)
 print("ex18  B", B)
 
 
+## difference()
+## الفرق 
+##ex19
+A={"python","machin","surface","tensorflow"}
+B={"python","machin","surface2","tensorflow2"}
+
+C=A.difference(B)
+C=A-B
+
+print("ex19 A ", A)
+print("ex19  B", B)
+
+print("ex19  C", C)
+
+
+## difference()
+## الفرق 
+##ex20
+A={"python","machin","surface","tensorflow"}
+B=["python","machin","surface2","tensorflow2"]
+
+C=A.difference(B)
+#C=A-B
+
+print("ex20 A ", A)
+print("ex20  B", B)
+
+print("ex20  C", C)
+
+
+
+
+## difference_update()
+## الفرق 
+##ex21
+A={"python","machin","surface","tensorflow"}
+B={"python","machin","surface2","tensorflow2"}
+
+A.difference_update(B)
+## A=A-B
+print("ex21 A ", A)
+print("ex21  B", B)
+
+
+
+## symmetric_difference_update()
+##ex22
+A={"python","machin","surface","tensorflow"}
+B={"python","machin","surface2","tensorflow2"}
+
+A.symmetric_difference_update(B)
+## A=A^B
+## A={A-B &  B-A}
+print("ex22 A ", A)
+print("ex22  B", B)
 
 
 
 
 
+## symmetric_difference_update()
+##ex23
+A={"python","machin","surface","tensorflow"}
+B={"python","machin","surface2","tensorflow2"}
+C=A.symmetric_difference(B)
+## C=A^B
 
+print("ex23 A ", A)
+print("ex23  B", B)
 
-
-
-
-
-
-
-
+print("ex23  C", C)
 
 
 
