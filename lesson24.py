@@ -1,10 +1,10 @@
 """
-maan 59
-Abd fattah  55
-ismail 36
-manaf 39
-gith 32
-sedra 34
+maan 60
+Abd fattah  56
+ismail 37
+manaf 40
+gith 33
+sedra 35
 jaber 21
 obia 16
 Bhaa 9
