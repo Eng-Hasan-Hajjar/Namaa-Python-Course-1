@@ -72,7 +72,7 @@ def game_loop():
                     Y_change = -SNAKE_BLOCK
                     X_change = 0   
 
-        X += X_change
+        X += X_change##  X =X+ X_change
         Y += Y_change
 
         if X < 0 or X >= WIN_WIDTH or Y < 50 or Y >= WIN_HEIGHT:
