@@ -120,3 +120,7 @@ class Player:
 player1=Player("maan","manaf") 
 print(player1.name)     
 print(player1.idd)     
+
+
+
+
