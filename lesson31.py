@@ -204,8 +204,12 @@ print(myfunc())
 
 
 ## modules
+import module1
+print(module1.myfuncmodule()) 
+print(module1.ccc) 
 
-
-
+import module1 as m
+print(m.myfuncmodule()) 
+print(m.ccc) 
 
 
