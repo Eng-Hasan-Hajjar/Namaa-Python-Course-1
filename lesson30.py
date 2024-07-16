@@ -1,13 +1,13 @@
 """
 maan 80
-Abd fattah  79
+Abd fattah  80
 ismail 56
-manaf 53
-gith 50
-sedra 53
+manaf 54
+gith 52
+sedra 54
 jaber 21
 obia 16
-Bhaa 16
+Bhaa 17
 lama 3
 hussam 2
 ahmad  1
@@ -129,7 +129,7 @@ class Dog(Animal):
         self.breed=pbreed        
     def fetch(self):
         print(f"{self.name} is fetching the ball")
-    #abstuct method
+    #abstruct method
     def speak(self):
          print(f"{self.name} says .....")
 
@@ -138,7 +138,41 @@ dog.move()
 dog.speak()
 dog.fetch()
 
+## ex2  for inheritance
+class Animal:
+    def __init__(self,pname):
+        self.name=pname
+    def move(self):
+        print(f"{self.name} is moving")
+    #abstuct method
+    def speak(self):
+        raise NotImplementedError("Subclass must implement abstract method")    
 
+class Mammal(Animal):
+    def __init__(self,pname,color):
+        super().__init__(pname)
+        self.color=color
+    def describe(self):
+        print(f"{self.name} color is  {self.color}")
+  
+
+
+
+class Dog(Mammal):
+    def __init__(self,pname,color,pbreed):
+        super().__init__(pname,color)
+        self.breed=pbreed        
+    def fetch(self):
+        print(f"{self.name} is fetching the ball")
+    #abstuct method
+    def speak(self):
+         print(f"{self.name} says .....")
+
+dog=Dog("losi","white","breed")
+dog.move()
+dog.describe()
+dog.speak()
+dog.fetch()
 
 
 
