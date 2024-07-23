@@ -8,3 +8,7 @@ def myfuncmodule():
     return x15
  
 ccc="ccc"
+
+
+
+dictionary={"name":"Sedra","city":"Istanbul" }
