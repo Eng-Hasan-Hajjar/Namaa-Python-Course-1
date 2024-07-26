@@ -124,9 +124,14 @@ else:
 finally:
      print("there is finally ") 
 
+
+
+
 ## files
 try:
     f=open("text2.txt")
 except:
     print("there is exception file ")    
+
+
 
